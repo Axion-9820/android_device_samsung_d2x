@@ -33,3 +33,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+# Viper4android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
